@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_complaint_report_detail.xml" value="0.18" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_driver_tab.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_garph.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_graph_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_home.xml" value="0.12" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_message.xml" value="0.1721014492753623" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_sms.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/driverlayout.xml" value="0.1721014492753623" />
+        <entry key="..\:/AndroidProject/Bis/app/src/main/res/layout/persistent_bottomsheet.xml" value="0.19010416666666666" />
+        <entry key="..\:/D/AndroidProject/BisCopy/Bis/app/src/main/res/layout/activity_capture.xml" value="0.17527173913043478" />
+        <entry key="..\:/D/AndroidProject/BisCopy/Bis/app/src/main/res/layout/activity_chat_group_detail.xml" value="0.18614130434782608" />
+        <entry key="..\:/D/AndroidProject/BisCopy/Bis/app/src/main/res/layout/activity_home.xml" value="0.18614130434782608" />
+        <entry key="..\:/D/AndroidProject/BisCopy/Bis/app/src/main/res/layout/activity_sms.xml" value="0.12" />
+        <entry key="..\:/D/AndroidProject/BisCopy/Bis/app/src/main/res/layout/dialog_image.xml" value="0.12273550724637682" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
