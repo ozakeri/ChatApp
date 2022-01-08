@@ -14,7 +14,7 @@
         android:layout_marginTop="2dp"
         android:orientation="vertical">
 
-        <com.gap.bis_inspection.util.CustomTextView
+        <com.gap.chat_app.util.CustomTextView
             android:id="@+id/formName_VT"
             android:layout_width="match_parent"
             android:layout_height="50dp"

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.gap.bis_inspection">
+    package="com.gap.chat_app">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
         android:name="android.hardware.telephony"
@@ -16,7 +23,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -36,7 +42,7 @@
         android:required="true" />
 
     <application
-        android:name=".app.AppController"
+        android:name="com.gap.chat_app.app.AppController"
         android:allowBackup="true"
         android:configChanges="orientation|keyboardHidden"
         android:icon="@drawable/app_logo"
@@ -48,6 +54,23 @@
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
 
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -59,16 +82,16 @@
         </provider>
 
         <service
-            android:name=".service.MyFirebaseMessagingService"
-            android:permission="com.google.android.c2dm.permission.SEND">
+            android:name="com.gap.chat_app.service.MyFirebaseMessagingService"
+            android:stopWithTask="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
 
+
         <receiver
-            android:name=".service.FirebaseDataReceiver"
+            android:name="com.gap.chat_app.service.FirebaseDataReceiver"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter android:priority="9999999">
                 <action android:name="gap.com.driver" />
@@ -80,7 +103,7 @@
         </receiver>
 
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.gap.chat_app.activity.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -92,10 +115,10 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDgfq12KG75gH-ymzw54jSnmytBEwQD62U" />
+            android:value="AIzaSyBPhloHtWAZCAB30q603-S9lDHYOl-LSmU" />
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.gap.chat_app.activity.MainActivity"
             android:label=""
             android:screenOrientation="portrait">
 
@@ -109,20 +132,17 @@
 
         </activity>
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="com.gap.chat_app.activity.SettingActivity"
             android:screenOrientation="portrait" />
-
         <activity
-            android:name=".activity.message.ChatGroupListActivity"
+            android:name="com.gap.chat_app.activity.message.ChatGroupListActivity"
             android:screenOrientation="portrait" />
-
         <activity
-            android:name=".activity.ResultActivity"
+            android:name="com.gap.chat_app.activity.ResultActivity"
             android:label=""
             android:screenOrientation="portrait" />
-
         <activity
-            android:name=".activity.message.ChatActivity"
+            android:name="com.gap.chat_app.activity.message.ChatActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
@@ -132,15 +152,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".activity.message.ChatGroupDetailActivity"
+            android:name="com.gap.chat_app.activity.message.ChatGroupDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.AboutActivity"
+            android:name="com.gap.chat_app.activity.AboutActivity"
             android:screenOrientation="portrait" />
-
-        <activity android:name=".activity.NotificationReceiverActivity" />
+        <activity android:name="com.gap.chat_app.activity.NotificationReceiverActivity" />
     </application>
 
 </manifest>

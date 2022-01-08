@@ -47,7 +47,7 @@
                 android:layout_marginTop="10dp"/>
 
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/statistical_VT"
                 android:text="درباره ما"
                 android:textColor="#041f59"
@@ -59,7 +59,7 @@
                 android:layout_below="@+id/img_logo"/>
 
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_two"
                 android:layout_below="@+id/statistical_VT"
                 android:text=" تاریخچه شرکت:"
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_three"
                 android:layout_below="@+id/txt_two"
                 android:text="@string/about"
@@ -81,7 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_four"
                 android:layout_below="@+id/txt_three"
                 android:text="حوزه فعالیت:"
@@ -92,7 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_five"
                 android:layout_below="@+id/txt_four"
                 android:text="@string/about1"
@@ -103,7 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_six"
                 android:layout_below="@+id/txt_five"
                 android:text="تماس با ما:"
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_seven"
                 android:layout_below="@+id/txt_six"
                 android:text="پل های ارتباطی شرکت عبارتند از: "
@@ -125,7 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_eight"
                 android:layout_below="@+id/txt_seven"
                 android:text="تلفن:"
@@ -137,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/call_TV"
                 android:layout_below="@+id/txt_seven"
                 android:layout_toLeftOf="@+id/txt_eight"
@@ -149,7 +149,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_ten"
                 android:layout_below="@+id/txt_eight"
                 android:text="پست الکترونیک:"
@@ -161,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/email_TV"
                 android:layout_below="@+id/txt_eight"
                 android:layout_toLeftOf="@+id/txt_ten"
@@ -173,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/txt_web"
                 android:layout_below="@+id/txt_ten"
                 android:text="وب سایت:"
@@ -185,7 +185,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/website_TV"
                 android:layout_below="@+id/txt_ten"
                 android:layout_toLeftOf="@+id/txt_web"

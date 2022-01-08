@@ -24,7 +24,7 @@
                 android:layout_height="20dp"
                 android:layout_gravity="center_vertical" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/locateVisit_TV"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/visitDate_TV"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/plateText_TV"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <com.gap.bis_inspection.util.CustomTextView
+            <com.gap.chat_app.util.CustomTextView
                 android:id="@+id/count_TV"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

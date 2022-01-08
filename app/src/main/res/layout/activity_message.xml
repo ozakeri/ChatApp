@@ -76,7 +76,7 @@
         android:dividerHeight="0dp"
         android:layout_marginBottom="3dp"/>
 
-    <com.gap.bis_inspection.util.CustomTextViewTitle
+    <com.gap.chat_app.util.CustomTextViewTitle
         android:id="@+id/txt_newMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

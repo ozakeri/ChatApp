@@ -28,7 +28,7 @@
 
         </RelativeLayout>
 
-        <com.gap.bis_inspection.util.CustomTextView
+        <com.gap.chat_app.util.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -83,7 +83,7 @@
                     android:layout_marginTop="5dp"
                     android:background="@mipmap/iconlogo" />
 
-                <com.gap.bis_inspection.util.CustomTextView
+                <com.gap.chat_app.util.CustomTextView
                     android:id="@+id/webSite_TV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

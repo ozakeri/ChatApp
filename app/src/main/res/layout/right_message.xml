@@ -12,7 +12,7 @@
         android:layout_margin="5dp"
         android:orientation="vertical">
 
-        <com.gap.bis_inspection.util.CustomTextView
+        <com.gap.chat_app.util.CustomTextView
             android:id="@+id/name_VT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true" />
 
-                <com.gap.bis_inspection.util.CustomTextView
+                <com.gap.chat_app.util.CustomTextView
                     android:id="@+id/msgr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                     android:background="@mipmap/sendfile"
                     android:visibility="gone" />
 
-                <com.gap.bis_inspection.util.CustomTextView
+                <com.gap.chat_app.util.CustomTextView
                     android:id="@+id/time_VT"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                     </RelativeLayout>
                 </RelativeLayout>
 
-                <com.gap.bis_inspection.util.CustomTextView
+                <com.gap.chat_app.util.CustomTextView
                     android:id="@+id/date_VT"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
                 android:paddingLeft="8dp"
                 android:paddingRight="15dp">
 
-                <com.gap.bis_inspection.util.CustomTextView
+                <com.gap.chat_app.util.CustomTextView
                     android:id="@+id/textView27"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
